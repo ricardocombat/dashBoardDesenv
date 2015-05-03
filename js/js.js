@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     //pega dadis
-    $.getJSON( "/data/dev.json", function( data ) {
+    $.getJSON( "data/dev.json", function( data ) {
         var funcionarios = data.funcionarios;
         
         
@@ -16,7 +16,11 @@ $( document ).ready(function() {
 
     }); 
     
-    //TODO CRIAR FORMA DE CONSUMIR E-MAIL E LISTAR PDA DOS USUÁRIOS QUE ESTÃO NA LISTA
+    //TODO CRIAR FORMA DE CONSUMIR E-MAIL E LISTAR PDA DOS USUÁRIOS QUE ESTÃO NA LISTA      
+    
+
+    
+      
     
     });
 
